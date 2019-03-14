@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Preparation') {
             steps {
-                powershell ''
+                powershell 'prepare.ps1'
             }
         }
         stage('Build') {
             steps {
-                powershell ''
+                powershell 'build.ps1'
             }
         }
     }
