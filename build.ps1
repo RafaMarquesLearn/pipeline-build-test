@@ -4,7 +4,8 @@ $msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBui
 set-alias msbuild $msbuild
 
 # solution settings
-$sln_name = "C:\Users\rafael_marques\Documents\code\Projeto2\windows\Projeto2.sln"
+#$sln_name = "C:\Users\rafael_marques\Documents\code\Projeto2\windows\Projeto2.sln"
+$sln_name = C:\Users\rafael_marques\Desktop\MinefieldWindows\windows\MinefieldWindows.sln
 $vs_config = "DebugBundle" 
 $vs_platfom = "x64"
 
