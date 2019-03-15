@@ -5,7 +5,7 @@ set-alias msbuild $msbuild
 
 # solution settings
 #$sln_name = "C:\Users\rafael_marques\Documents\code\Projeto2\windows\Projeto2.sln"
-$sln_name = C:\Users\rafael_marques\Desktop\MinefieldWindows\windows\MinefieldWindows.sln
+$sln_name = "C:\Users\rafael_marques\Desktop\MinefieldWindows\windows\MinefieldWindows.sln"
 #$vs_config = "DebugBundle"
 $vs_config = "Release"
 $vs_platfom = "x64"
