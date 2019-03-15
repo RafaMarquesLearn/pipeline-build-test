@@ -4,8 +4,8 @@ $msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBui
 set-alias msbuild $msbuild
 
 # solution settings
-$sln_name = "C:\Users\rafael_marques\Desktop\MinefieldWindows\windows\MinefieldWindows.sln"
-$vs_config = "DebugBundle"
+$sln_name = "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell.sln"
+$vs_config = "Release"
 $vs_platfom = "x64"
 
 # call the build method
