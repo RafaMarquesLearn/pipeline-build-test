@@ -1,11 +1,11 @@
 # Path to Msbuild tool
+$msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe"
 
-$msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe"
 set-alias msbuild $msbuild
 
 # solution settings
-$sln_name = "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell.sln"
-$vs_config = "Release"
+$sln_name = "${WORKSAPCE}\HPAppShell\windows\HPAppShell.sln"
+$vs_config = "DebugBundle"
 $vs_platfom = "x64"
 
 # call the build method

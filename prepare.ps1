@@ -1,7 +1,7 @@
-Set-ExecutionPolicy Bypass -Scope Process
+cd HPAppShell
 
-& 'C:\Users\rafael_marques\Downloads\nuget.exe' restore "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell.sln" -ConfigFile "C:\Users\rafael_marques\AppData\Roaming\NuGet\NuGet.Config" -NoCache
+yarn
 
-cd C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell
+& 'C:\Users\rafael_marques\Downloads\nuget.exe' restore "${WORKSAPCE}\HPAppShell\windows\HPAppShell.sln"  -NoCache
 
-& 'react-native' bundle --platform windows --entry-file index.js --bundle-output "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell\ReactAssets\index.windows.bundle" --assets-dest "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell\ReactAssets" --dev false
+& 'react-native' bundle --platform windows --entry-file index.js --bundle-output "${WORKSAPCE}\HPAppShell\windows\HPAppShell\ReactAssets\index.windows.bundle" --assets-dest "${WORKSAPCE}\HPAppShell\windows\HPAppShell\ReactAssets" --dev false
