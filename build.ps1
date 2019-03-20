@@ -13,5 +13,4 @@ $vs_platfom = "x64"
 # call the build method
 Write-Host "Building solution`n" -foregroundcolor Green
 #msbuild $sln_name /t:Build /p:Configuration=$vs_config /p:Platform=$vs_platfom /v:q /nologo
-#msbuild $sln_name /t:rebuild /p:Configuration=$vs_config /p:Platform=$vs_platfom /p:PackageAsSingleFile=true /v:q /nologo
-msbuild $sln_name /t:rebuild /p:Configuration=$vs_config /p:AppxBundlePlatforms=$vs_platfom /p:AppxBundle=Always /nr:false
+msbuild $sln_name /t:rebuild /p:Configuration=$vs_config /p:Platform=$vs_platfom /v:q /nologo
