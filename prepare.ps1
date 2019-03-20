@@ -5,7 +5,7 @@ Set-ExecutionPolicy Bypass -Scope Process
 & 'C:\Users\rafael_marques\Downloads\nuget.exe' restore "C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell\windows\HPAppShell.sln" -ConfigFile "C:\Users\rafael_marques\AppData\Roaming\NuGet\NuGet.Config" -NoCache
 
 #cd C:\Users\rafael_marques\Documents\code\Projeto2
-cd C:\Users\rafael_marques\Desktop\MinefieldWindows
+cd C:\Users\rafael_marques\Documents\code\react-native\win-app-shell\HPAppShell
 
 npm install
 
